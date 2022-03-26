@@ -5,7 +5,7 @@ import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap'
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 import { useHistory } from 'react-router-dom';
-import { connect } from 'react-redux';
+
 
 function CartScreen({ match, location }) {
   const history = useHistory();
